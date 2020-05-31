@@ -4,7 +4,7 @@ import Button from './Button'
 
 const App = () => (
   <div className="App">
-    <Button />
+    <Button className="button-bg-color" />
   </div>
 )
 

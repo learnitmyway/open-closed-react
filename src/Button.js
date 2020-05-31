@@ -1,8 +1,7 @@
 import React from 'react'
-import './Button.css'
 
-const Button = () => (
-  <button className="Button" type="button">
+const Button = ({ className }) => (
+  <button className={className} type="button">
     Click Me!
   </button>
 )
